@@ -1,0 +1,460 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:15:30
+* VERSION: 1.4.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.27                                |7.4.16
+OS__________________: WINNT                                 |Linux
+CREATED_____________: 2021-06-18 08:14:50
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 1.4.1
+DB__________________: 10.4.17
+DB TABLES___________: 18
+DB ROWS_____________: 949
+DB FILE SIZE________: 2.33MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.16 | SAPI: fpm-fcgi
+PHP MEMORY__________: 128M | SUHOSIN: disabled
+SERVER______________: Apache/2.4.25 (Debian)
+DOC ROOT____________: "/htdocs"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://www.tresorsublime.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/htdocs/20210618_tresorsublime_[HASH]_20210618081450_archive.zip"
+SIZE________________: 50.31MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/htdocs/20210618_tresorsublime_[HASH]_20210618081450_archive.zip"
+SIZE________________: 50.31MBFile timestamp set to Current: 2021-06-18 20:15:33
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 08:15:35 - RUNTIME: 4.6389 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:19:23
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.25 -- Build Server: 10.4.17
+FILE SIZE:	dup-database__[HASH].sql (1.16MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/htdocs/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [10.3.25] is less than the build version [10.4.17].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	169
+
+wp_actionscheduler_actions: (31)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (85)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (170)
+wp_postmeta: (394)
+wp_posts: (153)
+wp_term_relationships: (38)
+wp_term_taxonomy: (14)
+wp_termmeta: (0)
+wp_terms: (14)
+wp_usermeta: (26)
+wp_users: (1)
+wp_wpforms_tasks_meta: (13)
+Removed '40' cache/transient rows
+
+INSERT DATA RUNTIME: 2.9408 sec.
+STEP-2 COMPLETE @ 08:19:26 - RUNTIME: 2.9543 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:20:08
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Trésor Sublime"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/wordpress"
+path_new______________: "/htdocs"
+siteurl_______________: "https://www.tresorsublime.com"
+url_old_______________: "http://localhost:88/wordpress"
+url_new_______________: "https://www.tresorsublime.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    85][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   170][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   394][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   153][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wordpress" =======================> "/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/wordpress" ====================> "\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwordpress" ===============> "%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\wordpress" =======================> "/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\wordpress" ====================> "\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwordpress" ===============> "%2Fhtdocs"
+	SEARCH  7:"//localhost:88/wordpress" ========================> "//www.tresorsublime.com"
+	SEARCH  8:"\/\/localhost:88\/wordpress" =====================> "\/\/www.tresorsublime.com"
+	SEARCH  9:"%2F%2Flocalhost%3A88%2Fwordpress" ================> "%2F%2Fwww.tresorsublime.com"
+	SEARCH 10:"http://www.tresorsublime.com" ====================> "https://www.tresorsublime.com"
+	SEARCH 11:"http:\/\/www.tresorsublime.com" ==================> "https:\/\/www.tresorsublime.com"
+	SEARCH 12:"http%3A%2F%2Fwww.tresorsublime.com" ==============> "https%3A%2F%2Fwww.tresorsublime.com"
+--------------------------------------
+SCANNED:	Tables:18 	|	 Rows:942 	|	 Cells:7042 
+UPDATED:	Tables:4 	|	 Rows:160 	|	 Cells:180 
+ERRORS:		0 
+RUNTIME:	0.229300 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""185.98.131.94""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:20:08 - RUNTIME: 0.3110 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
